@@ -1,0 +1,76 @@
+﻿已經開始建置於 2015/3/26 下午 09:16:07。
+     1>節點 2 (Build 目標) 上的專案 "c:\Users\1411070\documents\visual studio 2013\Projects\AcerIOT\AcerIOT\AcerIOT.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /ID:\alljoyLib\services_common\inc /ID:\alljoyLib\notification\inc /ID:\alljoyLib\controlpanel\inc /ID:\alljoyLib\cpp\inc /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\AcerIOT.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /errorReport:prompt /clr:nostdlib AcerIOT.cpp ControllerNotificationReceiver.cc ControllerUtil.cc ControlPanelControllerSample.cc ControlPanelListenerImpl.cc MyForm.cpp
+         AcerIOT.cpp
+     1>AcerIOT.cpp(4): warning C4627: '#include "MyForm.h"': 尋找先行編譯標頭使用時略過
+                 新增指示詞到 'stdafx.h' 或重建先行編譯標頭
+     1>AcerIOT.cpp(17): fatal error C1010: 尋找先行編譯標頭檔指示詞時碰到未預期的檔案結尾。您的原始檔中是否忘了加上 '#include "stdafx.h"'?
+         ControllerNotificationReceiver.cc
+     1>ControllerNotificationReceiver.cc(17): warning C4627: '#include "ControllerNotificationReceiver.h"': 尋找先行編譯標頭使用時略過
+                 新增指示詞到 'stdafx.h' 或重建先行編譯標頭
+     1>ControllerNotificationReceiver.cc(18): warning C4627: '#include "ControllerUtil.h"': 尋找先行編譯標頭使用時略過
+                 新增指示詞到 'stdafx.h' 或重建先行編譯標頭
+     1>ControllerNotificationReceiver.cc(19): warning C4627: '#include <iostream>': 尋找先行編譯標頭使用時略過
+                 新增指示詞到 'stdafx.h' 或重建先行編譯標頭
+     1>ControllerNotificationReceiver.cc(84): fatal error C1010: 尋找先行編譯標頭檔指示詞時碰到未預期的檔案結尾。您的原始檔中是否忘了加上 '#include "stdafx.h"'?
+         ControllerUtil.cc
+     1>ControllerUtil.cc(17): warning C4627: '#include "ControllerUtil.h"': 尋找先行編譯標頭使用時略過
+                 新增指示詞到 'stdafx.h' 或重建先行編譯標頭
+     1>ControllerUtil.cc(18): warning C4627: '#include <alljoyn/controlpanel/ControlPanel.h>': 尋找先行編譯標頭使用時略過
+                 新增指示詞到 'stdafx.h' 或重建先行編譯標頭
+     1>ControllerUtil.cc(19): warning C4627: '#include <alljoyn/controlpanel/ActionWithDialog.h>': 尋找先行編譯標頭使用時略過
+                 新增指示詞到 'stdafx.h' 或重建先行編譯標頭
+     1>ControllerUtil.cc(20): warning C4627: '#include <iostream>': 尋找先行編譯標頭使用時略過
+                 新增指示詞到 'stdafx.h' 或重建先行編譯標頭
+     1>ControllerUtil.cc(503): fatal error C1010: 尋找先行編譯標頭檔指示詞時碰到未預期的檔案結尾。您的原始檔中是否忘了加上 '#include "stdafx.h"'?
+         ControlPanelControllerSample.cc
+     1>ControlPanelControllerSample.cc(17): warning C4627: '#include <iostream>': 尋找先行編譯標頭使用時略過
+                 新增指示詞到 'stdafx.h' 或重建先行編譯標頭
+     1>ControlPanelControllerSample.cc(18): warning C4627: '#include <sstream>': 尋找先行編譯標頭使用時略過
+                 新增指示詞到 'stdafx.h' 或重建先行編譯標頭
+     1>ControlPanelControllerSample.cc(19): warning C4627: '#include <cstdio>': 尋找先行編譯標頭使用時略過
+                 新增指示詞到 'stdafx.h' 或重建先行編譯標頭
+     1>ControlPanelControllerSample.cc(20): warning C4627: '#include <signal.h>': 尋找先行編譯標頭使用時略過
+                 新增指示詞到 'stdafx.h' 或重建先行編譯標頭
+     1>ControlPanelControllerSample.cc(21): warning C4627: '#include <alljoyn/notification/NotificationService.h>': 尋找先行編譯標頭使用時略過
+                 新增指示詞到 'stdafx.h' 或重建先行編譯標頭
+     1>ControlPanelControllerSample.cc(22): warning C4627: '#include <alljoyn/controlpanel/ControlPanelService.h>': 尋找先行編譯標頭使用時略過
+                 新增指示詞到 'stdafx.h' 或重建先行編譯標頭
+     1>ControlPanelControllerSample.cc(23): warning C4627: '#include <alljoyn/controlpanel/ControlPanelController.h>': 尋找先行編譯標頭使用時略過
+                 新增指示詞到 'stdafx.h' 或重建先行編譯標頭
+     1>ControlPanelControllerSample.cc(24): warning C4627: '#include "ControlPanelListenerImpl.h"': 尋找先行編譯標頭使用時略過
+                 新增指示詞到 'stdafx.h' 或重建先行編譯標頭
+     1>ControlPanelControllerSample.cc(25): warning C4627: '#include "ControllerNotificationReceiver.h"': 尋找先行編譯標頭使用時略過
+                 新增指示詞到 'stdafx.h' 或重建先行編譯標頭
+     1>ControlPanelControllerSample.cc(26): warning C4627: '#include "commom\SrpKeyXListener.h"': 尋找先行編譯標頭使用時略過
+                 新增指示詞到 'stdafx.h' 或重建先行編譯標頭
+     1>ControlPanelControllerSample.cc(27): warning C4627: '#include "commom\CommonSampleUtil.h"': 尋找先行編譯標頭使用時略過
+                 新增指示詞到 'stdafx.h' 或重建先行編譯標頭
+     1>ControlPanelControllerSample.cc(28): warning C4627: '#include "commom\AnnounceHandlerImpl.h"': 尋找先行編譯標頭使用時略過
+                 新增指示詞到 'stdafx.h' 或重建先行編譯標頭
+     1>ControlPanelControllerSample.cc(29): warning C4627: '#include <alljoyn/services_common/LogModulesNames.h>': 尋找先行編譯標頭使用時略過
+                 新增指示詞到 'stdafx.h' 或重建先行編譯標頭
+     1>ControlPanelControllerSample.cc(178): fatal error C1010: 尋找先行編譯標頭檔指示詞時碰到未預期的檔案結尾。您的原始檔中是否忘了加上 '#include "stdafx.h"'?
+         ControlPanelListenerImpl.cc
+     1>ControlPanelListenerImpl.cc(17): warning C4627: '#include "ControlPanelListenerImpl.h"': 尋找先行編譯標頭使用時略過
+                 新增指示詞到 'stdafx.h' 或重建先行編譯標頭
+     1>ControlPanelListenerImpl.cc(18): warning C4627: '#include "ControllerUtil.h"': 尋找先行編譯標頭使用時略過
+                 新增指示詞到 'stdafx.h' 或重建先行編譯標頭
+     1>ControlPanelListenerImpl.cc(19): warning C4627: '#include <alljoyn/controlpanel/ControlPanel.h>': 尋找先行編譯標頭使用時略過
+                 新增指示詞到 'stdafx.h' 或重建先行編譯標頭
+     1>ControlPanelListenerImpl.cc(20): warning C4627: '#include <iostream>': 尋找先行編譯標頭使用時略過
+                 新增指示詞到 'stdafx.h' 或重建先行編譯標頭
+     1>ControlPanelListenerImpl.cc(21): warning C4627: '#include <algorithm>': 尋找先行編譯標頭使用時略過
+                 新增指示詞到 'stdafx.h' 或重建先行編譯標頭
+     1>ControlPanelListenerImpl.cc(113): fatal error C1010: 尋找先行編譯標頭檔指示詞時碰到未預期的檔案結尾。您的原始檔中是否忘了加上 '#include "stdafx.h"'?
+         MyForm.cpp
+     1>MyForm.cpp(2): warning C4627: '#include "MyForm.h"': 尋找先行編譯標頭使用時略過
+                 新增指示詞到 'stdafx.h' 或重建先行編譯標頭
+     1>MyForm.cpp(4): fatal error C1010: 尋找先行編譯標頭檔指示詞時碰到未預期的檔案結尾。您的原始檔中是否忘了加上 '#include "stdafx.h"'?
+         正在產生程式碼...
+     1>專案 "c:\Users\1411070\documents\visual studio 2013\Projects\AcerIOT\AcerIOT\AcerIOT.vcxproj" (Build 目標) 建置完成 -- 失敗。
+
+建置失敗。
+
+經過時間 00:00:00.33
