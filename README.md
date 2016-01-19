@@ -1,1 +1,1 @@
-# AcerIOT 內部測試用
+# Alljoyn framework 測試用的Windows App
